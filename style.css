@@ -1,0 +1,19 @@
+div {
+    background-color: white;
+    border: 5px outset blue;
+    width: 500px;
+    height: 400px;
+}
+.bl {
+ bottom: 50px;
+ 
+}
+.web {
+    border: 1px solid black;
+    margin-top: 5px;
+}
+.yazi{
+    color: chocolate;
+    font-size: 25px;
+    
+}
