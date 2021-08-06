@@ -1,19 +1,56 @@
-div {
-    background-color: white;
-    border: 5px outset blue;
-    width: 500px;
-    height: 400px;
-}
-.bl {
- bottom: 50px;
- 
-}
-.web {
+#curch{
     border: 1px solid black;
-    margin-top: 5px;
+    width: auto;
+    height: 500px;
+
 }
-.yazi{
-    color: chocolate;
-    font-size: 25px;
+#faith{
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 100% ;
+    height: 300px;
+    display:flex;
+    justify-content: space-around;
+}
+.box{
+    width: 1200px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+.State{
+    display: flex;
+}
+.State h1{
+    text-align: center;
+}
+.faith-items {
+    border: 1px solid black;
+    width:33%;
+    height: 200px;
+    margin: 20px;
+}
+.faith-items, h1{
+    text-align: center;
+}
+#about{
+    width: 100%;
+    height: 100px;
+    border:1px solid black;
+    margin-top: 20px;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
     
+}
+.about-items{
+    width: 100px;
+    height: 30px;
+    border:1px solid white;
+    margin: 35px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+
 }
