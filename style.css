@@ -1,56 +1,167 @@
-#curch{
+#logo{
+  border: 1px solid black;
+  width: 1200px;
+  height: 200px;
+  display: inline-block;
+    justify-content: space-around;
+}
+.logo-items{
     border: 1px solid black;
-    width: auto;
-    height: 500px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    margin: 40px 0;
+    float: left;
+}
+.search-items{
+    border: 1px solid black;
+    width: 230px;
+    height: 50px;
+    float: right;
+    display: flex;
+    margin: 80px 0;
+}
+#page{
+    border: 1px solid black;
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.page-items{
+    border: 1px solid black;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#img-banners{
+    width: 1200px;
+    height: 255px;
+    border: 1px solid black;
+    display: flex;
+   
 
 }
-#faith{
+.img{
+    display: flex;
+    width: 805px;
+    height: 255px;
     border: 1px solid black;
-    margin-top: 10px;
-    width: 100% ;
-    height: 300px;
-    display:flex;
-    justify-content: space-around;
+
 }
-.box{
-    width: 1200px;
-    border: 1px solid red;
+.banners-items{
+    width: 395px;
+    height: 255px;
     display: flex;
-    justify-content: space-around;
-}
-.State{
-    display: flex;
-}
-.State h1{
-    text-align: center;
-}
-.faith-items {
     border: 1px solid black;
-    width:33%;
-    height: 200px;
-    margin: 20px;
+    flex-direction: column;
+
 }
-.faith-items, h1{
-    text-align: center;
-}
-#about{
-    width: 100%;
-    height: 100px;
-    border:1px solid black;
-    margin-top: 20px;
-    background-color: crimson;
+.banner{
     display: flex;
-    justify-content: space-around;
-    
-}
-.about-items{
-    width: 100px;
-    height: 30px;
-    border:1px solid white;
-    margin: 35px;
-    display: flex;
-    float: left;
+    width: 395px;
+    height: 62px;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
 
+}
+#box{
+    width: 1200px;
+    height: 480px;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 10px;
+
+}
+.box-1{
+    display: flex;
+    width: 780px;
+    height: 175px;
+    border: 1px solid black;
+    
+}
+.yazi{
+    color: white;
+    font-size: 20px;
+    background-color: gray;
+    border: 1px solid black;
+    margin: 0;
+    padding: 15px 0;
+}
+.yaz{
+    color: white;
+    background-color: darkgray;
+    padding: 24px 0;
+    border: 1px solid black;
+    margin: 0;
+}
+
+.box-2{
+    width: 780px;
+    height: 75px;
+    display: flex;
+    border: 1px solid black;
+    margin: 20px 0;
+    background-color: gray;
+    color: white;
+    font-size: larger;
+}
+.image{
+    width: 420px;
+    height: 480px;
+    border: 1px solid black;
+    display: flex;
+    
+}
+.image-items{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.text{
+    width: 265px;
+    height: 100px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+#Son{
+    border: 1px solid black;
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    align-self: center;
+    display: inline-block;
+
+}
+.submit{
+    float: right;
+    align-self: flex-end;
+}
+.SM{
+    width: 400px;
+    height: 120px;
+    border: 1px solid black;
+    align-self: center;
+    display: flex;
+}
+.SM-items{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    align-self: center;
 }
