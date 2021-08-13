@@ -55,9 +55,17 @@
     padding: 6px 8px;
     
 }
-.Home a, i{
-    color: lightgrey;
+a {
+    text-decoration: none;
+    padding: 15px;
 }
-.menu span, i:hover {
+.Home a{
+    color: lightgrey;
+    opacity: 0.7;
+}
+
+.Home :hover{
     color: white;
+    opacity: 1;
+    border-bottom: 5px solid red;
 }
