@@ -2,17 +2,19 @@ body{
     margin: 0%;
 }
 #header-topbar{
-    padding: 20px 0;
     background-color: #222;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
 }
 
 .picture{
-    width: 70px;
-    height: 100px;
+    width: 50px;
+    height: 90px;
     
 }
 .navbar{
-    margin-left: 5%;
+    display: flex;
 }
 .navbar h1{
     color: white;
@@ -29,22 +31,26 @@ margin-left: 10%;
 }
 .x-navbar ul li{
     list-style: none;
-    padding: 10px 20px;
     color: white;
    
 }
 .x-navbar ul{
     cursor: pointer;
-    
+    margin: 0;
+    font-family: oxygen,Helvetica,sans-serif;
 }
 
 .x-navbar ul li a{
      color: rgb(190, 178, 178);
      text-decoration: none;
+    padding: 15px 20px;
+    border-top: 0;
+    border-bottom: 0;
+    font-size: 15px;
 }
 .x-navbar ul li a:hover{
     color:white;
-    border-bottom: 3px solid red;
+    border-bottom: 2px solid red;
     transition: all .3s ease;
     
 }
@@ -63,5 +69,96 @@ margin-left: 10%;
     width: 100%;
     background-image: url(../img/main_bg_light.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+}
+#about-me{
+    position: relative;
+}
+.about-me{
+    border: 1px solid black;
+    height: 500px;
+    background: #222;
+
+}
+.border-topp{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    border-top: 3px solid #ff724c;
+    border-left: 3px solid #ff724c;
+    left: 20px;
+    top: 15px;
+}
+
+.title{
+    text-align: center;
+    width: 100%;
+    padding: 30px 60px 50px;
+}
+.title-book{
+    display: inline-block;
+}
+.items{
+    color: #555;
+    font-size: 60px;
+    margin: 12px 0 0;
+
+}
+.item{
+    background-color: #ff724c;
+    padding: 0 10px;
+    margin: 0;
+    display: inline-block;
+    line-height: 1.5em;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: right;
+}
+.info-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.info-list li{
+    padding: 5px 0;
+    font-size: 14px;
+    text-align: start;
+}
+.info-list li .tit{
+    color: white;
+    padding-right: 5px;
+}
+.info-list li .value{
+    color: white;
+}
+.social-link{
+    display: block;
+    list-style: none;
+    margin: 25px 0 5px;
+    padding: 0;
+    text-align: left;
+}
+
+.social-link li {
+    color: white;
+    padding-right: 10px;
+    display: inline-block;
+}
+.social-link li a{
+    display: inline-block;
+    margin: 0 1px;
+    width: 34px;
+    height: 34px;
+    color: #e5e5e5;
+    background-color: transparent;
+    border: 1px solid #555;
+    text-align: center;
+}
+.social-link li a i{
+    font-size: 16px;
+    line-height: 32px;
+}
+.social-link li a:hover{
+    color: white;
+    background-color: #ff724c;
 }
