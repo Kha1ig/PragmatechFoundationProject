@@ -7,4 +7,51 @@
 h1, h2, h3, h4, h5, h6, p, span{
     color: white;
     font-family: oxygen,Helvetica,sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.5em;
+    font-weight: 700;
+}
+
+.pe{
+    font-size: 14px;
+}
+.page{
+    height: 100%;
+    padding: 10px 0;
+}
+.block-title{
+    margin: 0%;
+    margin-bottom: 20px;
+}
+.box{
+    display: inline-block;
+
+}
+.event-name{
+    margin: 0;
+    margin-top: 10px;
+}
+.skills h4{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.skills-container{
+    border: 1px solid #555;
+    height: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.skills-tag-1{
+    border: 1px solid white;
+    background-color: #ff724c;
+    width: 70%;
+    height: 10px;
+}
+.skills-tag-2{
+    border: 1px solid white;
+    background-color: #ff724c;
+    width: 45%;
+    height: 10px;
 }

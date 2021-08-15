@@ -1,6 +1,7 @@
 body{
     margin: 0%;
 }
+
 #header-topbar{
     background-color: #222;
     padding: 0 20px;
@@ -73,6 +74,7 @@ margin-left: 10%;
 }
 #about-me{
     position: relative;
+    margin-top: 100px;
 }
 .about-me{
     border: 1px solid black;
@@ -97,6 +99,12 @@ margin-left: 10%;
 }
 .title-book{
     display: inline-block;
+    margin-bottom: 40px;
+    text-align: end;
+}
+.front{
+    text-align: start;
+    font-size: 1.17em;
 }
 .items{
     color: #555;
@@ -112,7 +120,6 @@ margin-left: 10%;
     line-height: 1.5em;
     font-size: 14px;
     font-weight: 200;
-    text-align: right;
 }
 .info-list{
     list-style: none;
@@ -126,11 +133,21 @@ margin-left: 10%;
 }
 .info-list li .tit{
     color: white;
-    padding-right: 5px;
+    margin-right: 12px;
+    border-bottom: 2px solid #ff724c;
 }
+
 .info-list li .value{
     color: white;
 }
+.info-list a {
+    color: #ff724c;
+    text-decoration: none;
+    outline: none;
+    }
+.info-list a:hover {
+    color: #fa5427;
+}  
 .social-link{
     display: block;
     list-style: none;
@@ -161,4 +178,41 @@ margin-left: 10%;
 .social-link li a:hover{
     color: white;
     background-color: #ff724c;
+    transition: all, 0.5s;
+}
+.template-dark{
+    background-color: #222;
+}
+.block{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.edu{
+    text-align: start;
+}
+.date{
+    background-color: #ff724c;
+    padding: 5px 8px 5px 20px;
+    display: inline-block;
+    margin: 0;
+    margin-left: -20px;
+}
+.event{
+    text-align: start;
+    padding-left: 20px;
+}
+.button{
+    border: 2px solid #fa5427;
+    margin-top: 50px;
+    height: 50px;
+    width: 130px;
+
+}
+.button:hover{
+    background-color: #fa5427;
+    color: white;
+    transition: all, 0.3s;
+    cursor: pointer;
 }
