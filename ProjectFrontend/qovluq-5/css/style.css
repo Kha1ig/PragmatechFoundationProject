@@ -14,6 +14,11 @@ body{
     height: 90px;
     
 }
+.picture-2{
+    width: 50px;
+    height: 90px;
+    
+}
 .navbar{
     display: flex;
 }
@@ -25,6 +30,10 @@ body{
 }
 .picture img{
     width: 100%;
+    border: 2px solid white;
+}
+.picture-2 img{
+    width: 70%;
     border: 2px solid white;
 }
 .x-navbar{
@@ -74,7 +83,7 @@ margin-left: 10%;
 }
 #about-me{
     position: relative;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .about-me{
     border: 1px solid black;
@@ -182,6 +191,8 @@ margin-left: 10%;
 }
 .template-dark{
     background-color: #222;
+    width: 1200px;
+    margin: 70px auto;
 }
 .block{
     float: left;
