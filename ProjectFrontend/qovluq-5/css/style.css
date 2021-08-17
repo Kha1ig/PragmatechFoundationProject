@@ -6,7 +6,8 @@ body{
     background-color: #222;
     padding: 0 20px;
     position: fixed;
-    width: 100%;
+    width: 150px;
+    height:100vh;
 }
 
 .picture{
@@ -20,13 +21,14 @@ body{
     
 }
 .navbar{
-    display: flex;
+    
 }
 .navbar h1{
     color: white;
     padding-left: 25px;
     align-items: center;
     margin: 0;
+    padding: 15px;
 }
 .picture img{
     width: 100%;
@@ -37,7 +39,7 @@ body{
     border: 2px solid white;
 }
 .x-navbar{
-margin-left: 10%;
+ margin-top: 70px;
 }
 .x-navbar ul li{
     list-style: none;
@@ -258,4 +260,11 @@ margin-left: 10%;
 .image img{
     width: 355px;
     height: 200px;
+}
+
+
+input, textarea {
+    width: calc(100% - 100px);
+    padding: 10px 30px;
+    margin-top: 10px !important;
 }
