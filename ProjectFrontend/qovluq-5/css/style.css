@@ -15,7 +15,7 @@ body{
     
 }
 .picture-2{
-    width: 50px;
+    
     height: 90px;
     
 }
@@ -57,6 +57,7 @@ margin-left: 10%;
     border-top: 0;
     border-bottom: 0;
     font-size: 15px;
+    border-bottom: 2px solid transparent;
 }
 .x-navbar ul li a:hover{
     color:white;
@@ -104,7 +105,7 @@ margin-left: 10%;
 .title{
     text-align: center;
     width: 100%;
-    padding: 30px 60px 50px;
+    padding: 30px 60px 0px;
 }
 .title-book{
     display: inline-block;
@@ -226,4 +227,35 @@ margin-left: 10%;
     color: white;
     transition: all, 0.3s;
     cursor: pointer;
+}
+.r-navbar {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding-left: 95px;
+}
+.r-navbar li a{
+    color: lightgrey;
+    font-size: 12px;
+    text-decoration: none;
+}
+.r-navbar li a:hover{
+    background-color: #eee;
+    color: #888;
+    transition: all, 0.5s ease;
+}
+.r-navbar li a:active:hover{
+    background-color: #ff724c;
+    color: #fff;
+}
+.portfolio-item{
+    margin-bottom: 20px;
+}
+.image{
+    width: 355px;
+    height: 200px;
+}
+.image img{
+    width: 355px;
+    height: 200px;
 }
