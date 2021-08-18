@@ -1,4 +1,4 @@
-body{
+ body{
     margin: 0%;
 }
 
@@ -20,9 +20,7 @@ body{
     height: 90px;
     
 }
-.navbar{
-    
-}
+
 .navbar h1{
     color: white;
     padding-left: 25px;
@@ -264,7 +262,38 @@ body{
 
 
 input, textarea {
-    width: calc(100% - 100px);
+    font-family: pt sans,Helvetica,sans-serif;
+    width: 100%;
     padding: 10px 30px;
     margin-top: 10px !important;
+    box-sizing: border-box;
+    background: 0 0;
+    border-color: #555;
+    color: white;
+    border: 1px solid #bbb
+}
+input, textarea :focus {
+    border-radius: 0;
+}
+.size{
+    font-size: 0.9em;
+}
+.submit{
+    border: 1px solid #fa5427;
+}
+.submit:hover{
+    background-color: #ff724c;
+    color: white;
+   
+}
+.touch-block{
+    display: flex;
+    margin-bottom: 20px;
+}
+.text{
+    color: white;
+    padding-left: 20px;
+}
+.touch-icon{
+    color: cornflowerblue
 }

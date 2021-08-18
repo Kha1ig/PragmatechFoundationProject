@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6{
 .block-title{
     margin: 0%;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 .box{
     display: inline-block;
@@ -54,4 +55,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: #ff724c;
     width: 45%;
     height: 10px;
+}
+p{
+    font-size: .875rem;
 }
