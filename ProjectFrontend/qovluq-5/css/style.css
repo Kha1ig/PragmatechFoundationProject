@@ -1,25 +1,22 @@
  body{
     margin: 0%;
+    font-family: sans-serif;
 }
 
 #header-topbar{
     background-color: #222;
     padding: 0 20px;
-    position: fixed;
     width: 150px;
+    position: fixed;
     height:100vh;
 }
 
 .picture{
-    width: 50px;
+    width: 70px;
     height: 90px;
-    
+    margin-top: 7px;
 }
-.picture-2{
-    
-    height: 90px;
-    
-}
+  
 
 .navbar h1{
     color: white;
@@ -27,33 +24,36 @@
     align-items: center;
     margin: 0;
     padding: 15px;
+    font-size: 24px;
+    text-align: center;
 }
 .picture img{
     width: 100%;
     border: 2px solid white;
+    margin-left: 20px;
 }
 .picture-2 img{
     width: 70%;
     border: 2px solid white;
 }
-.x-navbar{
- margin-top: 70px;
-}
+
 .x-navbar ul li{
     list-style: none;
     color: white;
+    justify-content: center;
    
 }
 .x-navbar ul{
     cursor: pointer;
     margin: 0;
     font-family: oxygen,Helvetica,sans-serif;
+    padding: 0;
 }
 
 .x-navbar ul li a{
      color: rgb(190, 178, 178);
      text-decoration: none;
-    padding: 15px 20px;
+    padding: 15px 10px;
     border-top: 0;
     border-bottom: 0;
     font-size: 15px;
@@ -83,12 +83,10 @@
     background-size: cover;
 }
 #about-me{
-    position: relative;
-    margin-top: 70px;
+    padding: 90px 180px;
 }
 .about-me{
     border: 1px solid black;
-    height: 500px;
     background: #222;
 
 }
@@ -106,6 +104,7 @@
     text-align: center;
     width: 100%;
     padding: 30px 60px 0px;
+    margin-bottom: 10px;
 }
 .title-book{
     display: inline-block;
@@ -191,9 +190,9 @@
     transition: all, 0.5s;
 }
 .template-dark{
-    background-color: #222;
+    
     width: 1200px;
-    margin: 70px auto;
+    
 }
 .block{
     float: left;
@@ -252,12 +251,14 @@
     margin-bottom: 20px;
 }
 .image{
-    width: 355px;
+    width: 100%;
     height: 200px;
+    
 }
 .image img{
-    width: 355px;
+    width: 100%;
     height: 200px;
+    object-fit: cover;
 }
 
 
@@ -273,13 +274,21 @@ input, textarea {
     border: 1px solid #bbb
 }
 input, textarea :focus {
-    border-radius: 0;
+    border-radius: 0px;
 }
 .size{
     font-size: 0.9em;
 }
+/* .size:focus{
+    border-radius: 0px !important;
+} */
+.size::after{
+    
+    border-radius: 0 0;
+}
 .submit{
     border: 1px solid #fa5427;
+    margin-bottom: 30px;
 }
 .submit:hover{
     background-color: #ff724c;
@@ -296,4 +305,14 @@ input, textarea :focus {
 }
 .touch-icon{
     color: cornflowerblue
+}
+
+.mobil-logo{
+    margin-left: 20px;
+}
+.menu{
+    margin-right: 20px;
+}
+.menu a{
+    color: #fa5427;
 }
