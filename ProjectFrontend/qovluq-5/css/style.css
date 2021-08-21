@@ -16,6 +16,9 @@
     height: 90px;
     margin-top: 7px;
 }
+.picture-2{
+    text-align: left;
+}
   
 
 .navbar h1{
@@ -81,6 +84,8 @@
     background-image: url(../img/main_bg_light.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 #about-me{
     padding: 90px 180px;
@@ -190,7 +195,7 @@
     transition: all, 0.5s;
 }
 .template-dark{
-    
+    margin: 70px;
     width: 1200px;
     
 }

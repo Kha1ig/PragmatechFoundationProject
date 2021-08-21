@@ -109,6 +109,22 @@ p{
             width: 25%;
         }
 }
+@media (max-width: 575px) { 
+    #about-me{
+        padding: 3rem 2rem;
+    }
+    .social-link li a {
+        position: relative;
+        justify-content: center;
+        display: flex;
+    }
+    .social-link li a i{
+        position: absolute;
+    }
+    .row{
+        font-size: 2rem;
+    }
+}
 @media (max-width: 502px) {
     .rose{
         width:35% ;
