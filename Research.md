@@ -61,6 +61,13 @@ Qeyd: Konteynerdəki maddə çevik deyilsə, flex-grow xüsusiyyəti bu maddəy�
 
  - function
  - Javascriptin hər funksiyası bir function obyektidir.
+ - Yeni bir Function obyekti yaradır. Konstruktoru birbaşa çağırmaq funksiyaları dinamik şəkildə yarada bilər, lakin təhlükəsizlik və Global_Objects/eval ilə oxşar (lakin daha az əhəmiyyətli) performans problemlərindən əziyyət çəkir. Lakin, eval -dən fərqli olaraq, Function konstruktoru yalnız qlobal miqyasda işləyən funksiyalar yaradır.
+
+ - if
+ - If ifadəsi, müəyyən bir şərt doğrudursa, bir ifadəni yerinə yetirir. Şərt yalan olarsa, başqa bir ifadə icra oluna bilər.
+
+ - implements
+ - Implement.js, interfeysləri JavaScript -ə gətirməyə çalışan bir kitabxanadır. Fikir sadədir: bir interfeys təyin edin, xüsusiyyətlərinin növlərini təyin edin və bir obyektin gözlədiyiniz kimi olmasını təmin etmək üçün istifadə edin.
 
 
 
