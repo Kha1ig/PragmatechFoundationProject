@@ -74,6 +74,14 @@
     margin-bottom: 10px;
 
 }
+.web {
+    
+}
+.web h2,p{
+    color: #fa5427 !important;
+    text-align: center;
+    position: relative;
+}
 
 #web{
    position: relative; 
