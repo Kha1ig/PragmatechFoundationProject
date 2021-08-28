@@ -1,6 +1,7 @@
  body{
     margin: 0%;
     font-family: sans-serif;
+    overflow: hidden;
 }
 
 #header-topbar{
@@ -9,6 +10,24 @@
     width: 150px;
     position: fixed;
     height:100vh;
+}
+
+.textcenter{
+    position: absolute;
+    left: 600px;
+    top: 250px;
+
+
+}
+.textcenter h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fa5427;
+}
+.textcenter p{
+    font-size: 18px;
+    color: #fa5427;
+    text-align: center;
 }
 
 .picture{
@@ -26,14 +45,14 @@
     padding-left: 25px;
     align-items: center;
     margin: 0;
-    padding: 15px;
+    padding: 15px 0;
     font-size: 24px;
     text-align: center;
 }
 .picture img{
     width: 100%;
     border: 2px solid white;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .picture-2 img{
     width: 70%;
@@ -56,15 +75,14 @@
 .x-navbar ul li a{
      color: rgb(190, 178, 178);
      text-decoration: none;
-    padding: 15px 10px;
+    padding: 15px 9px;
     border-top: 0;
-    border-bottom: 0;
     font-size: 15px;
-    border-bottom: 2px solid transparent;
+    border-right: 2px solid transparent;
 }
 .x-navbar ul li a:hover{
     color:white;
-    border-bottom: 2px solid red;
+    border-right: 2px solid red;
     transition: all .3s ease;
     
 }
@@ -74,14 +92,8 @@
     margin-bottom: 10px;
 
 }
-.web {
-    
-}
-.web h2,p{
-    color: #fa5427 !important;
-    text-align: center;
-    position: relative;
-}
+
+
 
 #web{
    position: relative; 
