@@ -6,7 +6,7 @@
 
 #header-topbar{
     background-color: #222;
-    padding: 0 20px;
+    
     width: 150px;
     position: fixed;
     height:100vh;
@@ -14,18 +14,17 @@
 
 .textcenter{
     position: absolute;
-    left: 600px;
-    top: 250px;
-
+    left: 35rem;
+    top: 15rem;
 
 }
 .textcenter h2{
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     color: #fa5427;
 }
 .textcenter p{
-    font-size: 18px;
+    font-size: 20px;
     color: #fa5427;
     text-align: center;
 }
@@ -52,7 +51,7 @@
 .picture img{
     width: 100%;
     border: 2px solid white;
-    margin-left: 15px;
+    margin-left: 2.9rem;
 }
 .picture-2 img{
     width: 70%;
@@ -75,15 +74,15 @@
 .x-navbar ul li a{
      color: rgb(190, 178, 178);
      text-decoration: none;
-    padding: 15px 9px;
-    border-top: 0;
+    padding: 15px 41px;
     font-size: 15px;
-    border-right: 2px solid transparent;
+    border-right: 1px solid transparent;
 }
 .x-navbar ul li a:hover{
     color:white;
     border-right: 2px solid red;
     transition: all .3s ease;
+    background-color: transparent;
     
 }
 .icon{
@@ -92,8 +91,6 @@
     margin-bottom: 10px;
 
 }
-
-
 
 #web{
    position: relative; 
@@ -339,5 +336,8 @@ input, textarea :focus {
     margin-right: 20px;
 }
 .menu a{
+    color: #ff724c;
+}
+.menu a:hover{
     color: #fa5427;
 }

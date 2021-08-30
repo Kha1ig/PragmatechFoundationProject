@@ -1,6 +1,9 @@
 .flex{
     display: flex;
 }
+.padding{
+    padding: 0 !important;
+}
 .align-items{
     align-items: center;
 }
@@ -86,6 +89,7 @@ p{
     #header-topbar{
         display: none;
     }
+    
     .Mobil-header{
         width: 100%;
         height: 30px;
