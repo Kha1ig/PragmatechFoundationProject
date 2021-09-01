@@ -1,4 +1,4 @@
-justify-content və align-items arasında fərqlər nələrdir?
+## justify-content və align-items arasında fərqlər nələrdir?
 justify-content əsas ox boyunca işləyir və align isə xassələr Çapraz Axis üzərində işləyir.
 justify-conntent və align-items hərəkətlərində oxşardır, fərq odur ki, justify-content əsas ox üzrə işləyir, ancaq align-items kəsişən oxlar üzrə işləyir.
 align-content çox xətli konteynerlərdə işləyir və tək xətli konteynerlərə təsiri yoxdur.
@@ -70,5 +70,41 @@ Qeyd: Konteynerdəki maddə çevik deyilsə, flex-grow xüsusiyyəti bu maddəy�
  - Implement.js, interfeysləri JavaScript -ə gətirməyə çalışan bir kitabxanadır. Fikir sadədir: bir interfeys təyin edin, xüsusiyyətlərinin növlərini təyin edin və bir obyektin gözlədiyiniz kimi olmasını təmin etmək üçün istifadə edin.
 
 
+## while və for dövrləri arasındakı fərqlər:
 
+while yazılışı:
+while(şərt){
+   ifadələr
+}
+let i=0
+while(i<3){
+    console.log(i);
+    i++
+    və ya belədə yaza bilərik 
+    i++
+    console.log(i);
+    bu zaman i 1-dən başlayacaq
+}
 
+for yazılışı:
+for(ilk şərt; dövr sayı;){
+   ifadələr
+}
+
+for(i=0;i<5;i++){
+   console.log(i);
+}
+## Foo funksiyasının içini ele yazın ki ekranda daxil edilen argumentlərin cəmi görünsün:
+- function Foo(){
+
+  }
+  Foo(3,4,12,45,67,78)
+  
+-  let a = Foo (3,4,12,45,67,48)
+   function Foo(){
+
+    return(3+4+12+45+67+78)
+}
+    
+    console.log(a);
+    document.write(a) 
