@@ -103,7 +103,11 @@ p{
             margin-left: 0;
         }
  }
-
+ @media screen and (max-width:992px) and (min-width:320px) {
+    #about-me{
+        margin-top: 260px;
+    }
+}
 
  @media (max-width: 414px) { 
         .resume{
@@ -112,6 +116,20 @@ p{
         .rowe{
             width: 25%;
         }
+
+}
+
+@media (max-width: 411px){
+    .web{
+        height: 61rem;
+        width: 34rem;
+    }
+}
+@media (max-width: 360px){
+    .web{
+        height: 73rem;
+        width: 33rem;
+    }
 }
 @media (max-width: 575px) { 
     #about-me{
