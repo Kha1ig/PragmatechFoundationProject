@@ -39,7 +39,10 @@
     text-align: left;
 }
   
-
+.navbar{
+    position: absolute !important;
+    display: block !important;
+}
 .navbar h1{
     color: white;
     align-items: center;
@@ -62,13 +65,13 @@
     list-style: none;
     color: white;
     justify-content: center;
-    width: 9.45rem;
+    width: 9.44rem;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
 }
 .x-navbar ul li:hover{
     border-top: 1px solid lightgray;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
 }
 
 
@@ -80,13 +83,12 @@
 }
 
 .x-navbar ul li a{
-     color: rgb(190, 178, 178);
-     text-decoration: none;
+    color: rgb(190, 178, 178);
+    text-decoration: none;
     padding: 12px 41px;
     font-size: 15px;
-    width: 150px;
-    border-right: 1px solid transparent;
-    
+    width: 9.44rem;
+    border-right: 2px solid transparent;
     text-align: center;
 }
 .x-navbar ul li a:hover{
@@ -334,7 +336,7 @@
     padding-left: 30px;
 }
 input, textarea {
-    font-family: pt sans,Helvetica,sans-serif;
+    font-family: Helvetica,sans-serif;
     width: 100%;
     padding: 10px 30px;
     margin-top: 10px !important;
@@ -392,9 +394,9 @@ input, textarea :focus {
 .menu{
     margin-right: 20px;
 }
-.menu a{
+.menu i{
     color: #ff724c;
 }
-.menu a:hover{
+.menu i:hover{
     color: #fa5427;
 }
