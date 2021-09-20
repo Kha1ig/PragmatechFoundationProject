@@ -1,6 +1,7 @@
  body{
     margin: 0%;
     font-family: sans-serif;
+    overflow: hidden;
     
 }
 
@@ -160,6 +161,10 @@
     margin: 12px 0 0;
 
 }
+ .scroll{
+      
+    overflow-y: scroll;
+ }
 .item{
     background-color: #ff724c;
     padding: 0 10px;
@@ -233,6 +238,14 @@
     left: 23%;
     top: 18%;
     transform: translate(-7%, -15%);
+    height: 30rem;
+}
+.black{
+    position: absolute;
+    left: 23%;
+    top: 18%;
+    transform: translate(-7%, -15%);
+    height: auto;
     
 }
 .block{
@@ -268,25 +281,29 @@
     transition: all, 0.3s;
     cursor: pointer;
 }
-.r-navbar {
-    list-style: none;
+.portfolio-names {
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 95px;
+    
 }
-.r-navbar li a{
-    color: lightgrey;
+.portfolio-names .btn{
+    color: rgb(219, 194, 194);
     font-size: 12px;
     text-decoration: none;
 }
-.r-navbar li a:hover{
+.portfolio-names .btn:hover{
     background-color: #eee;
     color: #888;
     transition: all, 0.5s ease;
 }
-.r-navbar li a:active:hover{
+.portfolio-names .btn:active:hover{
     background-color: #ff724c;
     color: #fff;
+}
+.show {
+  display: block;
 }
 .portfolio-item{
     margin-bottom: 20px;
@@ -310,15 +327,15 @@
     height: 200px;
     display: none;
 }
-.image:hover .project-about h5{
+.portfolio-item:hover .project-about h5{
     color: #222;
 }
-.image:hover .project-about{
+.portfolio-item:hover .project-about{
     background-color:rgba(245,245,245,.95);
     color: #222;
     width: 300px;
     position: absolute;
-    top: 240px;
+    top: 230px;
     left: 12px;
     height: 200px;
     display: block;
@@ -326,7 +343,7 @@
     transition: all 10s ease;
     opacity: 0.7;
 }
-.image:hover .project-about .media{
+.portfolio-item:hover .project-about .media{
     margin: 0;
     margin-top: 130px;
     color: #222;

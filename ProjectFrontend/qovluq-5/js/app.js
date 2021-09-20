@@ -22,7 +22,7 @@ function openmenu(){
    }
 }*/
 let accStatus=true
-document.addEventListener("click", function openMenu(){
+function openMenu(){
     if(accStatus==true){
         document.querySelector('.menu').style.display='block',document.querySelector("#header-topbar").style.display='block'
         accStatus=false
@@ -30,7 +30,20 @@ document.addEventListener("click", function openMenu(){
        }else{
         document.querySelector('.menu').style.display='block', document.querySelector("#header-topbar").style.display='none'
         accStatus=true
-       }
+       
+    }
 
-  }
-  );
+}
+
+function openabout(){
+    if(accStatus==true){
+        document.querySelector('#about-me').style.display='block',document.querySelector("#header-topbar").style.display='none'
+        accStatus=false
+    }
+    else{
+        document.querySelector('#about-me').style.display='none', document.querySelector("#header-topbar").style.display='block'
+        accStatus=true
+       
+    }
+}
+ 
