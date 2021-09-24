@@ -40,8 +40,9 @@ def showbyName(ad):
 
 def showbyPage(sehife):
     for Books in books:
-        if sehife == Books.sehife:
-            Books.showbook()
+        if int(sehife) == Books.sehife:
+            print('salam')
+            #Books.showbook()
 
 def updatebook(id):
     for Books in books:
